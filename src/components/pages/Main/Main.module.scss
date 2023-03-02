@@ -1,0 +1,55 @@
+// banner
+.banner_section {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  
+  .banner_left_side {
+    p:nth-child(1) {
+      text-transform: uppercase;
+
+      color: #f46752;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+    }
+    p:nth-child(2) {
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 68px;
+      color: #1d253c;
+    }
+    p:nth-child(3) {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      color: #5a6482;
+      margin: 26px 0 40px 0;
+    }
+    button {
+      width: 200px;
+      background: #f46752;
+      border: 1px solid rgba(29, 37, 60, 0.2);
+      border-radius: 4px;
+      padding: 21px 25px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+      &:hover {
+        background: #cf422c;
+      }
+      img {
+        margin-left: 5px;
+      }
+    }
+  }
+  .img_wrap{
+    img{
+      width: 900px; 
+    }
+  }
+}
+
+

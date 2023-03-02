@@ -1,0 +1,22 @@
+.page_wrapper {
+  background: #f8ebe1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  .div_wrap {
+    background: rgba(250, 82, 64, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    color: rgb(71, 70, 70);
+    h1 {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 42px;
+    }
+  }
+}

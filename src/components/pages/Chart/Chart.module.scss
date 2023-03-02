@@ -1,0 +1,56 @@
+.chart_section {
+  background: #f9f5f2;
+  height:100vh;
+  .flex {
+    display: flex;
+    align-items: center;
+    .chart {
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #5a6482;
+        span {
+          color: red;
+        }
+      }
+    }
+    .text {
+      width: 45%;
+      p:nth-child(1) {
+        text-transform: uppercase;
+
+        color: #f46752;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+      }
+      p:nth-child(2) {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 52px;
+        color: #1d253c;
+        margin-top: 26px;
+      }
+
+      p:nth-child(3) {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        color: #5a6482;
+        margin: 26px 0 40px 0;
+      }
+      button{
+        font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #126F86;
+        background-color: transparent;
+        text-transform:capitalize;
+        img{
+            margin-left: 5px;
+        }
+      }
+    }
+  }
+}
